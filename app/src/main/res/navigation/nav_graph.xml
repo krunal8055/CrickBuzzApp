@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFrag">
+
+    <fragment
+        android:id="@+id/homeFrag"
+        android:name="com.example.crickbuzzapp.HomeFrag"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/home_page_1"
+        android:name="com.example.crickbuzzapp.Home_page_1"
+        android:label="fragment_home_page_1"
+        tools:layout="@layout/fragment_home_page_1" />
+    <fragment
+        android:id="@+id/matches_page_2"
+        android:name="com.example.crickbuzzapp.Matches_page_2"
+        android:label="fragment_matches_page_2"
+        tools:layout="@layout/fragment_matches_page_2" />
+    <fragment
+        android:id="@+id/videos_page_3"
+        android:name="com.example.crickbuzzapp.Videos_page_3"
+        android:label="fragment_videos_page_3"
+        tools:layout="@layout/fragment_videos_page_3" />
+    <fragment
+        android:id="@+id/news_page_42"
+        android:name="com.example.crickbuzzapp.News_page_4"
+        android:label="fragment_news_page_4"
+        tools:layout="@layout/fragment_news_page_4" />
+    <fragment
+        android:id="@+id/more_page_5"
+        android:name="com.example.crickbuzzapp.More_page_5"
+        android:label="fragment_more_page_5"
+        tools:layout="@layout/fragment_more_page_5" />
+    <fragment
+        android:id="@+id/live_Match_1"
+        android:name="com.example.crickbuzzapp.Live_Match_1"
+        android:label="fragment_live__match_1"
+        tools:layout="@layout/fragment_live__match_1" />
+    <fragment
+        android:id="@+id/upcoming_Match_2"
+        android:name="com.example.crickbuzzapp.Upcoming_Match_2"
+        android:label="fragment_upcoming__match_2"
+        tools:layout="@layout/fragment_upcoming__match_2" />
+    <fragment
+        android:id="@+id/recent_Match_3"
+        android:name="com.example.crickbuzzapp.Recent_Match_3"
+        android:label="fragment_recent__match_3"
+        tools:layout="@layout/fragment_recent__match_3" />
+</navigation>

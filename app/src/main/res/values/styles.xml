@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/CrickBuzzDefault</item>
+        <item name="colorPrimaryDark">@color/CrickBuzzDefault</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Theme for Nav Drawer -->
+    <style name="NavigationTheme" parent="AppTheme">
+        <item name="listPreferredItemHeightSmall">55dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <!-- menu item height- vary as u need -->
+    </style>
+
+    <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorPrimary</item>
+    </style>
+
+    <!-- Theme text style for Nav Drawer -->
+    <style name="NavDrawerTextAppStyle" parent="TextAppearance.AppCompat.Menu">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>
