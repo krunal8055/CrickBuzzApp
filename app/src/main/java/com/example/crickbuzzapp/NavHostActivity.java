@@ -71,8 +71,13 @@ public class NavHostActivity extends AppCompatActivity implements NavigationView
         switch (Selected_item)
         {
             case R.id.singin:
+                navController.navigate(R.id.action_homeFrag_to_signInFrag);
+                break;
+            case R.id.signup:
+                navController.navigate(R.id.action_homeFrag_to_signUpFrag);
                 break;
             case R.id.cricketInfo:
+                navController.navigate(R.id.action_homeFrag_to_cricket_info_Frag);
                 break;
         }
         return false;

@@ -9,7 +9,17 @@
         android:id="@+id/homeFrag"
         android:name="com.example.crickbuzzapp.HomeFrag"
         android:label="Home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFrag_to_signInFrag"
+            app:destination="@id/signInFrag" />
+        <action
+            android:id="@+id/action_homeFrag_to_signUpFrag"
+            app:destination="@id/signUpFrag" />
+        <action
+            android:id="@+id/action_homeFrag_to_cricket_info_Frag"
+            app:destination="@id/cricket_info_Frag" />
+    </fragment>
     <fragment
         android:id="@+id/home_page_1"
         android:name="com.example.crickbuzzapp.Home_page_1"
@@ -50,4 +60,27 @@
         android:name="com.example.crickbuzzapp.Recent_Match_3"
         android:label="fragment_recent__match_3"
         tools:layout="@layout/fragment_recent__match_3" />
+    <fragment
+        android:id="@+id/signInFrag"
+        android:name="com.example.crickbuzzapp.SignInFrag"
+        android:label="Sign in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFrag_to_homeFrag"
+            app:destination="@id/homeFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFrag"
+        android:name="com.example.crickbuzzapp.SignUpFrag"
+        android:label="Sign up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFrag_to_homeFrag"
+            app:destination="@id/homeFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/cricket_info_Frag"
+        android:name="com.example.crickbuzzapp.Cricket_info_Frag"
+        android:label="Cricket Info"
+        tools:layout="@layout/fragment_cricket_info_" />
 </navigation>

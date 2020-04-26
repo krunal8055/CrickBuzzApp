@@ -8,6 +8,10 @@
             android:title="Signin"
             android:icon="@drawable/user_icon"/>
         <item
+            android:id="@+id/signup"
+            android:title="Signup"
+            android:icon="@drawable/signup_icon"/>
+        <item
             android:id="@+id/cricketInfo"
             android:title="Cricket Info"
             android:icon="@drawable/info_icon"/>
